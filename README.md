@@ -1,2 +1,2 @@
-# s-calculate
+# s-calculator
 simple
