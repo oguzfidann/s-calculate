@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*  --------------------------------------------   */
+
+.project {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  text-align: center;
+  margin: 2rem;
+  font-size: 20px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 3rem;
+  background: skyblue;
+  border: solid black;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 3rem;
+  background: wheat;
+  border: solid black;
+}
+
+.button-all {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/*    --------------------------------------------  */
+
+h3 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.project input {
+  padding: 0.5rem;
+}
+
+label {
+  padding: 0.5rem;
+}
+
+.rightside li {
+  padding: 0.5rem;
+}
+
+.select {
+  display: flex;
+}
+
+.select input {
+  margin: 0.2rem;
+  cursor: pointer;
+}
+
+#answer {
+  background: greenyellow;
+}
